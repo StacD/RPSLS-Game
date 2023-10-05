@@ -9,5 +9,26 @@ const scissorsBtn = document.getElementById("sc");
 const lizardBtn = document.getElementById("l");
 const spockBtn = document.getElementById("sp");
 
+function start() {
+    rockBtn.addEventListener("click", function() {
+        play("r")
+    })
+
+    paperBtn.addEventListener("click", function() {
+        play("p")
+    })
+
+    scissorsBtn.addEventListener("click", function() {
+        play("sc")
+    })
+
+    lizardBtn.addEventListener("click", function () {
+        play("l")
+    })
+
+    spockBtn.addEventListener("click", function () {
+        play("sp")
+    })
+}
 
 
