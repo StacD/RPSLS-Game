@@ -31,4 +31,9 @@ function start() {
     })
 }
 
+function getComputerChoice() {
+    const choices = ["r", "p", "sc", "l", "sp"]
+    const ranNum = Math.floor(Math.random() *5); //allows computer pick number between 0-5 ie 0,1,2,3,4
+    return choices[ranNum]
+}
 
