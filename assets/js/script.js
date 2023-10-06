@@ -39,3 +39,7 @@ function getComputerChoice() {
     return choices[ranNum]
 }
 
+//function for play so when button clicked players choice played
+function play() {
+    
+}
