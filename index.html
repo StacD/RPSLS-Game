@@ -17,8 +17,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="icon" href="assets/images/favicon/favicon.ico"/>
 
+    <!--Font awesome link for icons on buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!--Title-->
@@ -33,6 +34,7 @@
     </header>
 
     <main>
+        <!--Buttons for user choice-->
         <div class ="choices">
             <button i class="fa-regular fa-hand-back-fist" style="color: #000000;" class="choice" id="r"></button>
             <button i class="fa-regular fa-hand" style="color: #000000;" class="choice" id="p"></button>
@@ -41,12 +43,14 @@
             <button i class="fa-regular fa-hand-spock" style="color: #000000;" class="choice" id="sp"></button>
         </div>
 
+        <!--Area for user choice and computer choice to show-->
         <div class="selected">
             <span id="player-choice">Player Choice</span>
             <p>V</p>
             <span id="computer-choice">Computers Choice</span>
         </div>
 
+        <!--Score Area-->
         <div class ="scores">
             <span id="player-score">Player Score:</span>
             <span id="computer-score">Computer Score:</span>
