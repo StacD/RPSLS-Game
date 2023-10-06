@@ -14,6 +14,7 @@ const spockBtn = document.getElementById("sp");
 function start() {
     rockBtn.addEventListener("click", function() {
         play("r")
+        
     })
 
     paperBtn.addEventListener("click", function() {
@@ -32,14 +33,18 @@ function start() {
         play("sp")
     })
 }
+start();
+
 //function for computer choice to be randomly selected
 function getComputerChoice() {
     const choices = ["r", "p", "sc", "l", "sp"]
     const ranNum = Math.floor(Math.random() *5); //allows computer pick number between 0-5 ie 0,1,2,3,4
-    return choices[ranNum]
+    return choices[ranNum];
 }
 
 //function for play so when button clicked players choice played
-function play() {
+function play(playerChoice) {
+    const computerChoice = getComputerChoice();
+    
     
 }

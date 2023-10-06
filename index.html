@@ -8,11 +8,6 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!--Google Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -35,12 +30,12 @@
 
     <main>
         <!--Buttons for user choice-->
-        <div class ="choices">
-            <button i class="fa-regular fa-hand-back-fist" style="color: #000000;" class="choice" id="r"></button>
-            <button i class="fa-regular fa-hand" style="color: #000000;" class="choice" id="p"></button>
-            <button i class="fa-regular fa-hand-scissors" style="color: #000000;" class="choice" id="sc"></button>
-            <button i class="fa-regular fa-hand-lizard" style="color: #000000;" class="choice" id="l"></button>
-            <button i class="fa-regular fa-hand-spock" style="color: #000000;" class="choice" id="sp"></button>
+        <div class ="buttons">
+            <button class="chioce" id="r">Rock</button>
+            <button class="choice" id="p">Paper</button>
+            <button class="choice" id="sc">Scissors</button>
+            <button class="choice" id="l">Lizard</button>
+            <button class="choice" id="sp">Spock</button>
         </div>
 
         <!--Area for user choice and computer choice to show-->
@@ -54,7 +49,9 @@
         <div class ="scores">
             <span id="player-score">Player Score:</span>
             <span id="computer-score">Computer Score:</span>
+            <button id="reset">Reset</button>
         </div>
+
     </main>
 
         <footer>Rules

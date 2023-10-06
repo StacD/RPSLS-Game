@@ -1,7 +1,15 @@
 /*Google font*/
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
-/*testing stylesheetlink*/
-body {
+/*Testing stylesheetlink*/
+header {
     background-color: bisque;
+}
+
+main {
+    background-color:#ffffff;
+}
+
+footer {
+    background-color:bisque;
 }
