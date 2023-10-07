@@ -1,50 +1,25 @@
 const pScore = 0;
 const cScore = 0;
-const playerScore = document.getElementById("player-score");
-const computerScore = document.getElementById("computer-score");
+
+const playerOptions = [rBtn,pBtn,scBtn,lBtn,spBtn];
+const computerOptions = ["r", "p", "sc", "l", "sp"];
 
 //buttons
-const rockBtn = document.getElementById("r");
-const paperBtn = document.getElementById("p");
-const scissorsBtn = document.getElementById("sc");
-const lizardBtn = document.getElementById("l");
-const spockBtn = document.getElementById("sp");
-
-//function for start of game for player to pick their option
-function start() {
-    rockBtn.addEventListener("click", function() {
-        play("r")
-        
-    })
-
-    paperBtn.addEventListener("click", function() {
-        play("p")
-    })
-
-    scissorsBtn.addEventListener("click", function() {
-        play("sc")
-    })
-
-    lizardBtn.addEventListener("click", function () {
-        play("l")
-    })
-
-    spockBtn.addEventListener("click", function () {
-        play("sp")
-    })
-}
-start();
-
-//function for computer choice to be randomly selected
-function getComputerChoice() {
-    const choices = ["r", "p", "sc", "l", "sp"]
-    const ranNum = Math.floor(Math.random() *5); //allows computer pick number between 0-5 ie 0,1,2,3,4
-    return choices[ranNum];
+const start = () => {
+const rBtn = document.getElementById("r");
+const pBtn = document.getElementById("p");
+const scBtn = document.getElementById("sc");
+const lBtn = document.getElementById("l");
+const spBtn = document.getElementById("sp");
 }
 
-//function for play so when button clicked players choice played
-function play(playerChoice) {
-    const computerChoice = getComputerChoice();
-    
-    
-}
+//function for player to pick their option and generate computers option.
+playerOptions.forEach(options => {
+    options.addEventListener("click", function() {
+        const computerOption = Math.floor(Math.random() * 5);
+        const computerChoice = computerOptions[computerPick];
+        return (playerOptions);
+
+      
+    })
+})
