@@ -5,8 +5,8 @@ const playerOptions = [rBtn,pBtn,scBtn,lBtn,spBtn];
 const computerOptions = ["r", "p", "sc", "l", "sp"];
 
 //buttons
-const start = () => {
-const rBtn = document.getElementById("r");
+function pick() {
+    const rBtn = document.getElementById("r").innerHTML = "rock is selected";
 const pBtn = document.getElementById("p");
 const scBtn = document.getElementById("sc");
 const lBtn = document.getElementById("l");
