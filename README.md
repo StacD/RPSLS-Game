@@ -37,7 +37,7 @@ the user and computer scores so they can see who has the most wins.
 
 ### Footer
 
-Within the footer I have inserted the winning and losing possibilities of the game incasee the user
+Within the footer I have inserted the winning and losing possibilities of the game incase the user
 is unfamiliar with the rules of the game.
 
 ## Testing
@@ -63,12 +63,15 @@ it was my path to the favicon image that was incorrect. Once correct the favicon
 
 #### Unfixed Bugs
 
-It was my intention to include
+I did not leave my project with bugs however something i would have liked to include would
+have been a link to a clip of the show 'Big Bang Theory' where the main charcter explains the rules
+of the game just to add another level of interest for the user.
 
 ## Deployment
 
 I have deployed my site using GitHub pages.
-<ul><li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
+<ul>
+<li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
 <li>Then to the left of the page there is a menu where you select 'pages'.</li>
 <li>On this page ensure you select 'Deploy from branch'.</li>
 <li>Then select 'Main' then 'Root' and press save.</li>
@@ -98,5 +101,4 @@ high accessibilty standard.
 <li>I used https://pixabay.com/ and https://commons.wikimedia.org/wiki/Main_Page for my images
 which I also edited within paint3D.</li>
 <li>https://fonts.google.com for my font.</li>
-<li>I used this video<!--link to you tube video of sheldon<--> as a reference for the rules.</li>
 </ul>
