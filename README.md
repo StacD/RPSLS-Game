@@ -1,6 +1,6 @@
 # Rock paper scissors lizard spock the game
 
-Welcome to [Rock Paper](https://stacd.github.io/rpsls-game/)
+Welcome to [Rock, Paper, Scissors, Lizard, Spock the Game!](https://stacd.github.io/rpsls-game/)
 
 <!-->Insert screen shot of page<-->
 
