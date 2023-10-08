@@ -12,11 +12,28 @@
     text-align: center;
 }
 
-/* rules in footer*/
-ul {
+/* Header styles
+header {
+    padding-bottom:5px;
+    font-size:15px;
+    margin-top:0px;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    }
+
+
+main {
+    
+    width:100%;
+    padding:10px;
+    height:75%;
+}
+
+.footer {
+    justify-content:baseline;
     list-style: none;
     column-count: 2;
-    border-style: dotted;
     padding:2px;
-    
-}
+    display:flex;
+}*/
