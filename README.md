@@ -48,8 +48,6 @@ I have used devtools device bar and Am I responsive to see the responsiveness of
 I tested the game by sending the link to family members to use on their own devices and opened it up
 on my own device on both chrome and Microsoft Edge.
 
-My external link to the rules video on YouTube also works.
-
 ### Bugs
 
 #### Solved Bugs
