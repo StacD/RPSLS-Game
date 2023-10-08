@@ -1,25 +1,22 @@
-const pScore = 0;
-const cScore = 0;
+var pScore = 0;
+var cScore = 0;
 
-const playerOptions = [rBtn,pBtn,scBtn,lBtn,spBtn];
-const computerOptions = ["r", "p", "sc", "l", "sp"];
+//const playerOptions = [rBtn]
+
+ //pBtn, scBtn, lBtn, spBtn];
+//const computerOptions = ["r", "p", "sc", "l", "sp"];
+
+const rBtn = document.getElementById("r").innerHTML = "Rock";
+//const pBtn = document.getElementById("p").innerHTML = "paper is selected";
+//const scBtn = document.getElementById("sc").innerHTML = "scissors is selected";
+//const lBtn = document.getElementById("l").innerHTML = "lizard is selected";
+//const spBtn = document.getElementById("sp").innerHTML = "spock is selected";
 
 //buttons
-function pick() {
-    const rBtn = document.getElementById("r").innerHTML = "rock is selected";
-const pBtn = document.getElementById("p");
-const scBtn = document.getElementById("sc");
-const lBtn = document.getElementById("l");
-const spBtn = document.getElementById("sp");
-}
+var playerChoice = "Rock";
+    document.getElementById("r").innerHTML = button;
 
-//function for player to pick their option and generate computers option.
-playerOptions.forEach(options => {
-    options.addEventListener("click", function() {
-        const computerOption = Math.floor(Math.random() * 5);
-        const computerChoice = computerOptions[computerPick];
-        return (playerOptions);
+    function pR() {
+        document.getElementById("player-choice").innerHTML = "you picked rock"
+    }
 
-      
-    })
-})

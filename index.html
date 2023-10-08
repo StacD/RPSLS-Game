@@ -31,11 +31,11 @@
     <main>
         <!--Buttons for user choice-->
         <div class ="buttons">
-            <button class="chioce" id="r" onclick="pick()">Rock</button>
-            <button class="choice" id="p">Paper</button>
-            <button class="choice" id="sc">Scissors</button>
-            <button class="choice" id="l">Lizard</button>
-            <button class="choice" id="sp">Spock</button>
+            <button type="button" class= "choice" id="r" onclick="pR()">Rock</button>
+            <button type="button" class="choice" id="p" onclick="pP()">Paper</button>
+            <button type="button" class="choice" id="sc" onclick="pSc()">Scissors</button>
+            <button type="button" class="choice" id="l" onclick="pL()">Lizard</button>
+            <button type="button" class="choice" id="sp" onclick="pSp()">Spock</button>
         </div>
 
         <!--Area for user choice and computer choice to show-->
@@ -53,8 +53,8 @@
 
     </main>
 
-        <footer>Rules
-            <ul>
+        <footer>
+            <ul id="rules">
                 <li>Scissors cut Paper</li>
                 <li>Paper covers Rock</li>
                 <li>Rock crushes Lizard</li>
