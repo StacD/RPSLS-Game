@@ -12,6 +12,9 @@ It would appeal to any user that likes easy to play chance games and even Star T
 Big Bang Theory fans as this extended version of the game found huge popularity after being
 referenced by one of the shows main well loved characters.
 
+The font used is 'Pixelify Sans' as I want the game to have a Science fiction/ computer
+feel due to the link between this game and the Science fiction genre.
+
 ![Reponsive Screenshot](assets/images/rpsls.png)
 
 ## Features
@@ -77,11 +80,11 @@ Here is the link to [Rock, Paper, Scissors, Lizard, Spock the game]()
 
 ### Validator Testing
 
-HTML passed through the validator with no errors.
+HTML passed through the validator with no errors. ()
 
-CSS passed through the validator with no errors.
+CSS passed through the validator with no errors. ()
 
-JS passed through the validator with no errors.
+JS passed through the validator with no errors. ()
 
 For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a
 high accessibilty standard.
