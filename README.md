@@ -54,4 +54,46 @@ My external link to the rules video on YouTube also works.
 When first setting up the project the Favicon icon was not working. Upon checking my code I found
 it was my path to the favicon image that was incorrect. Once correct the favicon image then displayed.
 
-<!--image of error inserted>
+<!--image of error inserted><-->
+
+<!-- any validator errors insert here><-->
+
+#### Unfixed Bugs
+
+It was my intention to include
+
+## Deployment
+
+I have deployed my site using GitHub pages.
+<ul><li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
+<li>Then to the left of the page there is a menu where you select 'pages'.</li>
+<li>On this page ensure you select 'Deploy from branch'.</li>
+<li>Then select 'Main' then 'Root' and press save.</li>
+<li>Then select 'Code' in the top menu which will take you to your main page.</li>
+<li>You will see down the right hand side 'Deployments' where you can select this.</li>
+</ul>
+
+Here is the link to [Rock, Paper, Scissors, Lizard, Spock the game]()
+
+### Validator Testing
+
+HTML passed through the validator with no errors.
+
+CSS passed through the validator with no errors.
+
+JS passed through the validator with no errors.
+
+For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a
+high accessibilty standard.
+
+![Lighthouse Screenshot]()
+
+## Credits
+
+<ul>
+<li>I used https://favicon.io/favicon-converter/ to create my favicon .</li>
+<li>I used https://pixabay.com/ and https://commons.wikimedia.org/wiki/Main_Page for my images
+which I also edited within paint3D.</li>
+<li>https://fonts.google.com for my font.</li>
+<li>I used this video<!--link to you tube video of sheldon<--> as a reference for the rules.</li>
+</ul>
