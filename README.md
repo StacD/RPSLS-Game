@@ -6,3 +6,4 @@ This site is a functioning game of chance that askes the user to to pick from an
 objects that have different 
 
 ![Reponsive Screenshot](assets/images/lizard.png)
+![Reponsive Screenshot](assets/images/rock.png)
