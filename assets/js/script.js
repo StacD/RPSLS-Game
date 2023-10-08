@@ -6,13 +6,14 @@ var cScore = 0;
  //pBtn, scBtn, lBtn, spBtn];
 //const computerOptions = ["r", "p", "sc", "l", "sp"];
 
+//Declared buttons
 const rBtn = document.getElementById("r").innerHTML = "Rock";
 const pBtn = document.getElementById("p").innerHTML = "Paper";
-//const scBtn = document.getElementById("sc").innerHTML = "scissors is selected";
-//const lBtn = document.getElementById("l").innerHTML = "lizard is selected";
-//const spBtn = document.getElementById("sp").innerHTML = "spock is selected";
+const scBtn = document.getElementById("sc").innerHTML = "Scissors";
+const lBtn = document.getElementById("l").innerHTML = "Lizard";
+const spBtn = document.getElementById("sp").innerHTML = "Spock";
 
-//buttons
+//Player Selection 
 var playerChoice = "Rock";
     document.getElementById("r").innerHTML = button;
 
@@ -25,11 +26,25 @@ var playerChoice = "Paper";
 
     function pP() {
     document.getElementById("player-choice").innerHTML = "you picked paper";
-}
+    }
 
 var playerChoice = "Scissors";
     document.getElementById("sc").innerHTML = button;
 
     function pSc() {
     document.getElementById("player-choice").innerHTML = "you picked scissors";
-}
+    }
+
+var playerChoice = "Lizard";
+    document.getElementById("l").innerHTML = button;
+
+    function pL() {
+    document.getElementById("player-choice").innerHTML = "you picked lizard";
+    }
+
+var playerChoice = "Spock";
+    document.getElementById("sp").innerHTML = button;
+
+    function pSp() {
+    document.getElementById("player-choice").innerHTML = "you picked spock";
+    }
