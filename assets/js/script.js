@@ -4,7 +4,7 @@ var cScore = 0;
 //const playerOptions = [rBtn]
 
  //pBtn, scBtn, lBtn, spBtn];
-//const computerOptions = ["r", "p", "sc", "l", "sp"];
+const computerOptions = ["r", "p", "sc", "l", "sp"];
 
 //Declared buttons
 const rBtn = document.getElementById("r").innerHTML = "Rock";
@@ -19,6 +19,10 @@ var playerChoice = "Rock";
 
     function pR() {
         document.getElementById("player-choice").innerHTML = "you picked rock"
+
+    var computerselection = computerOptions [Math.floor(Math.random() * 5)];
+        const computerChoice = computerOptions[computerselection];
+        document.getElementById("computer-choice").innerHTML = "Computer" + computerselection;
     }
 
 var playerChoice = "Paper";
@@ -48,3 +52,8 @@ var playerChoice = "Spock";
     function pSp() {
     document.getElementById("player-choice").innerHTML = "you picked spock";
     }
+
+//generate computers choice using random.
+
+
+   
