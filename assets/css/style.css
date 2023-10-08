@@ -1,5 +1,5 @@
 /*Google font*/
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 /*general styling rule*/
 
@@ -10,9 +10,10 @@
     background-color: bisque;
     color: black;
     text-align: center;
+    font-family: 'Pixelify Sans', cursive;
 }
 
-/* Header styles
+ Header styles
 header {
     padding-bottom:5px;
     font-size:15px;
@@ -20,6 +21,7 @@ header {
     width:100%;
     justify-content: center;
     text-align: center;
+    font-family: 'Pixelify Sans', cursive;
     }
 
 
@@ -36,4 +38,4 @@ main {
     column-count: 2;
     padding:2px;
     display:flex;
-}*/
+}
