@@ -26,3 +26,10 @@ var playerChoice = "Paper";
     function pP() {
     document.getElementById("player-choice").innerHTML = "you picked paper";
 }
+
+var playerChoice = "Scissors";
+    document.getElementById("sc").innerHTML = button;
+
+    function pSc() {
+    document.getElementById("player-choice").innerHTML = "you picked scissors";
+}
