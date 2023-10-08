@@ -21,7 +21,6 @@ var playerChoice = "Rock";
         document.getElementById("player-choice").innerHTML = "you picked rock"
 
     var computerselection = computerOptions [Math.floor(Math.random() * 5)];
-        const computerChoice = computerOptions[computerselection];
         document.getElementById("computer-choice").innerHTML = "Computer" + computerselection;
     }
 
@@ -30,6 +29,9 @@ var playerChoice = "Paper";
 
     function pP() {
     document.getElementById("player-choice").innerHTML = "you picked paper";
+
+    var computerselection = computerOptions[Math.floor(Math.random() * 5)];
+    document.getElementById("computer-choice").innerHTML = "Computer" + computerselection;
     }
 
 var playerChoice = "Scissors";
@@ -37,6 +39,9 @@ var playerChoice = "Scissors";
 
     function pSc() {
     document.getElementById("player-choice").innerHTML = "you picked scissors";
+
+    var computerselection = computerOptions[Math.floor(Math.random() * 5)];
+    document.getElementById("computer-choice").innerHTML = "Computer" + computerselection;
     }
 
 var playerChoice = "Lizard";
@@ -44,6 +49,9 @@ var playerChoice = "Lizard";
 
     function pL() {
     document.getElementById("player-choice").innerHTML = "you picked lizard";
+
+    var computerselection = computerOptions[Math.floor(Math.random() * 5)];
+    document.getElementById("computer-choice").innerHTML = "Computer" + computerselection;
     }
 
 var playerChoice = "Spock";
@@ -51,6 +59,9 @@ var playerChoice = "Spock";
 
     function pSp() {
     document.getElementById("player-choice").innerHTML = "you picked spock";
+
+    var computerselection = computerOptions[Math.floor(Math.random() * 5)];
+    document.getElementById("computer-choice").innerHTML = "Computer" + computerselection;
     }
 
 //generate computers choice using random.
