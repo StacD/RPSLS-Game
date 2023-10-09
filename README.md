@@ -1,6 +1,6 @@
 # Rock paper scissors lizard spock the game
 
-Welcome to [Rock, Paper, Scissors, Lizard, Spock the Game!](https://stacd.github.io/rpsls-game/)
+Welcome to [Rock Paper Scissors Lizard Spock the Game!](https://stacd.github.io/rpsls-game/)
 
 <!-->Insert screen shot of page<-->
 
@@ -77,7 +77,7 @@ I have deployed my site using GitHub pages.
 <li>You will see down the right hand side 'Deployments' where you can select this.</li>
 </ul>
 
-Here is the link to [Rock, Paper, Scissors, Lizard, Spock the game]()
+Here is the link to [Rock Paper Scissors Lizard Spock the Game]()
 
 ### Validator Testing
 
