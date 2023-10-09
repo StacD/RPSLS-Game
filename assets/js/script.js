@@ -29,6 +29,16 @@ function selectChoice() {
         playerScore +=1;
         computerScore +=1;
     }
+    else {
+        if(player == "rock") {
+            if (computer == "scissors" || "lizard") {
+                playerScore += 1;
+            }
+            else if (computer == "paper" || "spock") {
+                computerScore += 1;
+            }
+        }
+    }
 
 
 
