@@ -1,7 +1,7 @@
 var player;
 var playerScore = 0;
-var computer;
-var computerScore = 0;
+var system;
+var systemScore = 0;
 
 var choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
@@ -20,59 +20,94 @@ function selectChoice() {
     player = this.id;
     document.getElementById("player-choice").src = player + ".png";
 
-//Code for computers random choice.
-    computer = choices[Math.floor(Math.random() * 5)];
-    document.getElementById("computer-choice").src = computer + ".png";
+//Code for systems random choice.
+    system = choices[Math.floor(Math.random() * 5)];
+    document.getElementById("system-choice").src = system + ".png";
 
-//Code for checking results based on player choice and computer random choice.
-    if (player == computer) {
+//Code for checking results based on player choice and system random choice.
+    if (player == system) {
         playerScore +=1;
-        computerScore +=1;
+        systemScore +=1;
     }
-    else {
+    else 
         if (player == "rock") {
-            if (computer == "scissors" || "lizard") {
+            if (system == "scissors") {
                 playerScore += 1;
             }
-            else if (computer == "paper" || "spock") {
-                    computerScore += 1;
+            else if (system == "paper") {
+                    systemScore += 1;
+            }
+            else if (system == "lizard") {
+                playerScore += 1;
+            }
+            else if (system == "spock") {
+                systemScore += 1;
             }
         }
-        else if (player == "paper") {
-            if (computer == "rock" || "spock") {
-                playerScore += 1;
+
+        else 
+            if (player == "paper") {
+                if (system == "scissors") {
+                    systemScore += 1;
+                }
+                else if (system == "rock") {
+                    playerScore += 1;
+                }
+                else if (system == "lizard") {
+                    systemScore += 1;
+                }
+                else if (system == "spock") {
+                    playerScore += 1;
+                }
             }
-            else if (computer == "scissors" || "lizard") {
-                    computerScore += 1;
-            }
-        }
-        else if (player == "scissors") {
-            if (computer == "paper" || "lizard") {
-                playerScore += 1;
-            }
-            else if (computer == "rock" || "spock") {
-                    computerScore += 1;
-            }
-        }    
-        else if (player == "lizard") {
-            if (computer == "paper" || "spock") {
-                playerScore += 1;
-            }
-            else if (computer == "rock" || "scissors") {
-                    computerScore += 1;        
-            }
-        } 
-        else if (player == "spock") {
-            if (computer == "rock" || "scissors") {
-                playerScore += 1;
-            }
-            else if (computer == "paper" || "lizard") {
-                    computerScore += 1;
-            }
-        }
+
+            else 
+                if (player == "scissors") {
+                    if (system == "spock") {
+                        systemScore += 1;
+                    }
+                    else if (system == "rock") {
+                        systemScore += 1;
+                    }
+                    else if (system == "lizard") {
+                        playerScore += 1;
+                    }
+                    else if (system == "paper") {
+                        playerScore += 1;
+                    }
+                }
+                else
+                    if (player == "lizard") {
+                        if (system == "spock") {
+                            playerScore += 1;
+                        }
+                        else if (system == "rock") {
+                            systemScore += 1;
+                        }
+                        else if (system == "scissors") {
+                            systemScore += 1;
+                        }
+                        else if (system == "paper") {
+                            playerScore += 1;
+                        }
+                }            
+                else
+                    if (player == "spock") {
+                        if (system == "lizard") {
+                                systemScore += 1;
+                            }
+                        else if (system == "rock") {
+                                playerScore += 1;
+                            }
+                        else if (system == "scissors") {
+                                playerScore += 1;
+                            }
+                        else if (system == "paper") {
+                                systemScore += 1;
+                            }
+                        }
 
 //Getting results of game to show.   
-document.getElementById("player-score").innerHTML = playerScore;
-document.getElementById("computer-score").innerHTML = computerScore;
-}
+    document.getElementById("player-score").innerHTML = playerScore;
+    document.getElementById("system-score").innerHTML = systemScore;
 }
