@@ -12,7 +12,7 @@ It would appeal to any user that likes easy to play chance games and even Star T
 Big Bang Theory fans as this extended version of the game found huge popularity after being
 referenced by one of the shows main well loved characters.
 
-The font used is 'Pixelify Sans' as I want the game to have a Science fiction/ computer
+The font used is 'Pixelify Sans, cursive' as I want the game to have a Science fiction/ computer
 feel due to the link between this game and the Science fiction genre.
 
 ![Reponsive Screenshot](assets/images/rpsls.png)
