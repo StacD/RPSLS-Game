@@ -26,8 +26,8 @@ function selectChoice() {
 
 //Code for checking results based on player choice and system random choice.
     if (player == system) {
-        playerScore +=1;
-        systemScore +=1;
+        playerScore +=0;
+        systemScore +=0;
     }
     else 
         if (player == "rock") {
