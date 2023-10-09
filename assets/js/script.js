@@ -10,7 +10,7 @@ window.onload = function () {
         //Getting images as options.
         let choice = document.createElement("img");
         choice.id = choices[i];
-        choice.src = choices[i] + ".png";
+        choice.src = choices[i] + "assets/images/.png";
         choice.addEventListener("click", selectChoice);
         document.getElementById("choices").append(choice);
     }
@@ -18,11 +18,11 @@ window.onload = function () {
 //Function for game play.
 function selectChoice() {
     player = this.id;
-    document.getElementById("player-choice").src = player + ".png";
+    document.getElementById("player-choice").src = player + "assets/images/.png";
 
 //Code for computers random choice.
     computer = choices[Math.floor(Math.random() * 5)];
-    document.getElementById("computer-choice").src = computer + ".png";
+    document.getElementById("computer-choice").src = computer + "assets/images/.png";
 
 //Code for checking results based on player choice and computer random choice.
     if (player == computer) {
