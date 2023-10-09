@@ -30,7 +30,10 @@ body {
     height: 80px;
 }
 
+footer {
+    text-align: left;
+}
+
 ul {
     list-style: none;
-    text-align: left;
 }
