@@ -60,7 +60,8 @@ function selectChoice() {
             }
             else if (computer == "rock" || "scissors") {
                     computerScore += 1;        
-        }
+            }
+        } 
         else if (player == "spock") {
             if (computer == "rock" || "scissors") {
                 playerScore += 1;
