@@ -1,38 +1,31 @@
-/*general styling rule*/
-
-*{
-    padding:0px;
-    margin:5px, 0px;
-    box-sizing: border-box;
-    background-color: bisque;
-    color: black;
+body {
+    font-family: "Pixelify", sans-serif;
     text-align: center;
-    font-family: 'Pixelify Sans', cursive;
 }
 
- Header styles
-header {
-    padding-bottom:5px;
-    font-size:15px;
-    margin-top:0px;
-    width:100%;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Pixelify Sans', cursive;
-    }
-
-
-main {
-    
-    width:100%;
-    padding:10px;
-    height:75%;
+#computer-choice {
+    width: 240px;
+    height: 240px;
+    /* background-color: cyan; */
+    margin-top: 10px;
 }
 
-.footer {
-    justify-content:baseline;
-    list-style: none;
-    column-count: 2;
-    padding:2px;
-    display:flex;
+#player-choice {
+    width: 240px;
+    height: 240px;
+    /* background-color: yellow; */
+    margin-top: 10px;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
 }
