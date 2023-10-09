@@ -56,6 +56,8 @@ it was my path to the favicon image that was incorrect. Once correct the favicon
 
 <!--image of error inserted><-->
 
+My images were not loading correctly on the page so i re-coded with one image to start to find the correct solution.
+
 <!-- any validator errors insert here><-->
 
 #### Unfixed Bugs
@@ -98,4 +100,5 @@ high accessibilty standard.
 <li>I used https://pixabay.com/ and https://commons.wikimedia.org/wiki/Main_Page for my images
 which I also edited within paint3D.</li>
 <li>https://fonts.google.com for my font.</li>
+<li>I used wikihow for an external link for more indepth explaination of the rules for if the user needs more understanding.
 </ul>
