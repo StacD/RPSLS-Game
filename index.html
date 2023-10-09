@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet"/>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,15 +8,16 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet" />
+
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
     <link rel="icon" href="assets/images/favicon/favicon.ico" />
-
-    <!--Font awesome link for icons on buttons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!--Title-->
     <title>Rock, Paper, Scissors, Lizard, Spock Game!</title>
@@ -30,39 +26,23 @@
   <body>
 
     <header>
-      <h1>Welcome to rock, paper, scissors, lizard, spock the game!</h1>
+      <h1>Welcome to Rock Paper Scissors Lizard Spock the Game!</h1>
     </header>
 
     <main>
-      <!--Buttons for user choice-->
-      <div class="buttons">
-        <button type="button" class="choice" id="r" onclick="pR()">Rock</button>
-        <button type="button" class="choice" id="p" onclick="pP()">
-          Paper
-        </button>
-        <button type="button" class="choice" id="sc" onclick="pSc()">
-          Scissors
-        </button>
-        <button type="button" class="choice" id="l" onclick="pL()">
-          Lizard
-        </button>
-        <button type="button" class="choice" id="sp" onclick="pSp()">
-          Spock
-        </button>
-      </div>
-
-      <!--Area for user choice and computer choice to show-->
-      <div class="selected">
-        <span id="player-choice">Player Choice</span>
-        <p>V</p>
-        <span id="computer-choice">Computers Choice</span>
-      </div>
-
-      <!--Score Area-->
-      <div class="scores">
-        <span id="player-score">0</span>
-        <span id="computer-score">0</span>
-      </div>
+        <h2>Pick your weapon of choice!</h2>
+        <br>
+        <!--div for choices pictures to show-->
+        <div id="choices"></div>
+        <br>
+        <!--image of the choice player went for so user can clearly see-->
+        <img id="players-choice">
+        <br>
+        <!--image of computers randomly generated choice so player can see what they are up against-->
+        <img id="computer-choice">
+        <!--Score area display so user can see results from played games-->
+        <h2 id="player-score"><p>Player Score: </p>0</h2>
+        <h2 id="computer-score"><p>Computer Score: </p>0</h2>
     </main>
 
     <footer id="footer">
