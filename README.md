@@ -37,7 +37,7 @@ the user and computer scores so they can see who has the most wins.
 
 ### Footer
 
-Within the footer I have inserted a link to google for if the user needs more detailed rules of the game.
+Within the footer I have inserted a link to google for if the user detailes of the rules the game.
 
 ## Testing
 

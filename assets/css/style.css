@@ -1,40 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Pixelify Sans', cursive;
     text-align: center;
-    background-color: rgb(243, 233, 220);
+    background-color: rgb(215, 235, 252);
+    min-height: 100vh;
+    flex-direction: column;
+    vertical-align: middle;
+    display: flex;
 }
 
-h1 {
-    font-size: 110%;
+header {
+    font-size: 90%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+#unsure {
+    padding-top: 10px;
+    color: black;
 }
 
 h2 {
     font-size: 85%;
+    padding-top: 10px;
+}
+
+main {
+    background-color: rgb(215, 235, 252);
+    top: 70px;
+    position: absolute;
+    margin-top: auto;
+    min-height: 500px;
+    text-align: center;
+}
+
+#player-score {
+    margin-top: 0px;
 }
 
 #system-choice {
     width: 120px;
     height: 120px;
-    /* background-color: cyan; */
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 #player-choice {
     width: 120px;
     height: 120px;
-    /* background-color: yellow; */
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #choices {
-    width: 240px;
+    width: auto;
     height: 80px;
-    /* background-color: green; */
-    margin: 0 auto;
+
+    margin: auto;
     margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 0px;
 }
 
 #choices img {
     width: 45px;
-    float: left;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+#exlink {
+    color: white;
+    font-size: 100%;
+}
+
+a {
+    color: black;
+}
+
+#rules {
+    padding: 10px;
+}
+
+#rules-title {
+    margin: 5px;
+}
+
+/* Media Queries above */
+@media screen and (min-width: 281px) {
+
+    header {
+        height: auto;
+        font-size: 90%;
+    }
+
+    footer {
+        margin: auto;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    #exlink {
+        font-size: 150%;
+        align-content: baseline;
+    }
+
+    main {
+        position: absolute;
+        margin-top: auto;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
 }
