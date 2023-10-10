@@ -2,7 +2,7 @@
 
 Welcome to [Rock Paper Scissors Lizard Spock the Game!](https://stacd.github.io/rpsls-game/)
 
-<!-->Insert screen shot of page<-->
+![Look of finished game](assets/images/screenshot.PNG)
 
 This site is a functioning game of chance that askes the user to pick from an option of
 objects that have different values for whether they win or lose depending on the computers
@@ -21,7 +21,7 @@ feel due to the link between this game and the Science fiction genre.
 
 ### Player choices
 
-At the screen the user is presented with 5 options to choose from. These consist
+On the screen the user is presented with 5 options to choose from. These consist
 of a rock, sheet of paper, pair of scissors, a lizard and a picture of the popular
 character Spock from Star Trek.
 
@@ -37,12 +37,14 @@ the user and computer scores so they can see who has the most wins.
 
 ### Footer
 
-Within the footer I have inserted a link to google for if the user detailes of the rules the game.
+Within the footer I have inserted a link to wikihow for if the user would like detailes of the rules the game.
 
 ## Testing
 
+I passed my code through HTML, CSS validators and python tutor on the javascript option.
+
 I have used devtools device bar and Am I responsive to see the responsiveness of my page.
-[Link to Am I responsive]()
+[Link to Am I responsive](https://ui.dev/amiresponsive?url=https://stacd.github.io/rpsls-game/)
 
 I tested the game by sending the link to family members to use on their own devices and opened it up
 on my own device on both chrome and Microsoft Edge.
@@ -54,11 +56,12 @@ on my own device on both chrome and Microsoft Edge.
 When first setting up the project the Favicon icon was not working. Upon checking my code I found
 it was my path to the favicon image that was incorrect. Once correct the favicon image then displayed.
 
-<!--image of error inserted><-->
+![incorrect Favicon code](assets/images/Favicon%20code.PNG)
 
-My images were not loading correctly on the page so i re-coded with one image to start to find the correct solution.
+My images were not loading correctly on the page so i re-coded with one image to start with to find the correct solution.
+It was where i had stored my images so i corrected the path and they then all showed up.
 
-<!-- any validator errors insert here><-->
+![Image error](assets/images/image%20error.PNG)
 
 #### Unfixed Bugs
 
@@ -78,15 +81,15 @@ I have deployed my site using GitHub pages.
 <li>You will see down the right hand side 'Deployments' where you can select this.</li>
 </ul>
 
-Here is the link to [Rock Paper Scissors Lizard Spock the Game]()
+Here is the link to [Rock Paper Scissors Lizard Spock the Game](https://stacd.github.io/rpsls-game/)
 
 ### Validator Testing
 
-HTML passed through the validator with no errors. ()
+HTML passed through the validator with no errors.
 
-CSS passed through the validator with no errors. ()
+CSS passed through the validator with no errors.
 
-JS passed through the validator with no errors. ()
+JS passed through the validator with no errors.
 
 For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a
 high accessibilty standard.
