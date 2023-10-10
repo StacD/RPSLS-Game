@@ -94,7 +94,7 @@ JS passed through the validator with no errors.
 For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a
 high accessibilty standard.
 
-![Lighthouse Screenshot]()
+![Lighthouse Screenshot](assets/images/lighthouse.PNG)
 
 ## Credits
 
